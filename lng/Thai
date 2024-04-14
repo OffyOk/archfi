@@ -1,0 +1,115 @@
+# Arch Linux Fast Install (archfi)
+# --------------------------------
+# project    : https://github.com/MatMoul/archfi
+# language   : Thai
+# translator : OffyOk (pseudo, name or e-mail.)
+# notes      : misc text...
+
+
+
+locale=en_US.UTF-8
+#font=
+
+txtexit="ออก"
+txtback="ย้อนกลับ"
+txtignore="ละเว้น"
+
+txtselectserver="เลือกเซิร์ฟเวอร์ต้นทาง:"
+
+txtmainmenu="เมนูหลัก"
+txtlanguage="ภาษา"
+txtsetkeymap="ตั้งค่า keyboard layout"
+txteditor="โปรแกรมแก้ txt file"
+txtdiskpartmenu="การแบ่ง disk"
+txtselectpartsmenu="เลือก disk และติดตั้ง"
+txthelp="ช่วยเหลือ"
+txtchangelog="บันทึกการเปลี่ยนแปลง"
+txtreboot="รีบูตเครื่อง"
+
+txtautoparts="แบ่งพาร์ติชันอัตโนมัติ"
+txteditparts="แก้ไขพาร์ติชัน"
+
+txtautopartsconfirm="อุปกรณ์ที่เลือก: %1\n\nข้อมูลทั้งหมดจะถูกลบ! \n\nดำเนินการต่อหรือไม่?"
+
+txtautopartclear="ลบข้อมูลพาร์ติชันทั้งหมด"
+txtautopartcreate="สร้างพาร์ติชัน %1"
+txthybridpartcreate="ตั้งค่าพาร์ติชันผสม MBR"
+txtautopartsettype="ตั้งค่าประเภทพาร์ติชัน %1"
+
+txtselectdevice="เลือกอุปกรณ์ %1:"
+txtselecteddevices="อุปกรณ์ที่เลือก:"
+
+txtformatmountmenu="format และ mount"
+txtformatdevices="format หลายอุปกรณ์"
+txtformatdevice="format อุปกรณ์"
+txtmount="mount"
+txtunmount="ยกเลิกการ mount"
+txtmountdesc="ติดตั้งหรือกำหนดค่า"
+
+txtformatdeviceconfirm="คำเตือน: ข้อมูลบนอุปกรณ์ที่เลือกจะถูกลบ! \nยืนยันการ format อุปกรณ์ต่อหรือไม่?"
+
+txtselectpartformat="เลือกรูปแบบพาร์ติชันสำหรับ %1:"
+txtformatingpart="กำลัง format พาร์ติชัน %1 เป็น"
+txtcreateluksdevice="สร้างอุปกรณ์ luks:"
+txtopenluksdevice="เปิดอุปกรณ์ luks:"
+txtluksdevicecreated="อุปกรณ์ luks ได้ถูกสร้างแล้ว!"
+
+txtinstallmenu="เมนูการติดตั้ง"
+
+txtarchinstallmenu="เมนูติดตั้ง Arch"
+
+txtselectmirrorsbycountry="เลือก mirror ตามประเทศ"
+txtselectcountry="เลือกประเทศ"
+txteditmirrorlist="แก้ไข mirror list"
+txtinstallarchlinux="ติดตั้ง Arch Linux"
+txtinstallarchlinuxkernel="Kernel"
+txtinstallarchlinuxfirmwares="เฟิร์มแวร์"
+txtinstallarchlinuxfilesystems="ระบบไฟล์"
+txtinstallarchlinuxcustompackagelist="รายการแพ็คเกจที่กำหนดเอง"
+txtconfigarchlinux="กำหนดค่า Arch Linux"
+
+txtsethostname="ตั้งชื่อคอมพิวเตอร์"
+txtsetfont="ตั้งค่าฟอนต์"
+txtsetlocale="ตั้งค่าภาษา"
+txtsettime="ตั้งเวลา"
+txtsetrootpassword="ตั้งรหัสผ่าน root"
+
+txthwclock="นาฬิกา"
+txthwclockutc="UTC"
+txthwclocklocal="ท้องถิ่น"
+
+txtbootloader="boot loader"
+txtbootloadermenu="เลือก boot loader ของคุณ"
+
+txtefibootmgr="efibootmgr จำเป็นสำหรับคอมพิวเตอร์ที่ใช้ EFI."
+
+txtbootloadergrubmenu="เมนูติดตั้ง Grub"
+txtrungrubmakeconfig="รัน grub-mkconfig หรือไม่?"
+txtgrubluksdetected="พาร์ติชัน root ที่เข้ารหัสแล้ว!\n\nเพิ่ม cryptdevice= ใน GRUB_CMDLINE_LINUX ใน /etc/default/grub หรือไม่?"
+
+txtbootloadersyslinuxmenu="เมนูติดตั้ง Syslinux"
+txtsyslinuxaddefibootmgr="การติดตั้ง EFI ต้องใช้ efibootmgr"
+txtsyslinuxaddgptfdisk="ดิสก์ GPT ต้องใช้ gptfdisk"
+txtsyslinuxaddmtools="พาร์ติชันบูต FAT ต้องใช้ mtools"
+
+txtbootloadersystemdmenu="เมนูติดตั้ง systemd-boot"
+
+txtbootloaderrefindmenu="เมนูติดตั้ง rEFInd"
+
+txtextrasmenu="พิเศษ"
+
+txtoptional="ตัวเลือก"
+txtrecommandeasyinst="แนะนำสำหรับการติดตั้งง่าย"
+txtset="ตั้งค่า %1"
+txtgenerate="สร้าง %1"
+txtedit="แก้ไข %1"
+txtinstall="ติดตั้ง %1"
+txtenable="เปิดใช้งาน %1"
+
+txtpressanykey="กดปุ่มใดๆ เพื่อดำเนินการต่อ."
+
+txtarchdidesc="สคริปต์การติดตั้งเดสก์ท็อปเต็มรูปแบบ"
+txtinstallarchdi="Arch Linux Desktop Install (archdi) เป็นสคริปต์ที่ 2 ที่จะช่วยให้คุณสามารถติดตั้งเครื่องมือเพื่อทำงานในเครื่องเต็มรูปแบบได้\n\nคุณสามารถเรียกใช้สคริปต์หรือติดตั้งโดยเลือกในเมนูถัดไป\n\nArch Linux Desktop Install มีการติดตั้งขึ้นอยู่กับสองอย่าง: wget และ libnewt\n\npacstrap wget libnewt?"
+txtarchdiinstallandlaunch="ติดตั้งและเรียกใช้ archdi"
+txtarchdiinstall="ติดตั้ง archdi"
+txtarchdilaunch="เรียกใช้ archdi"
